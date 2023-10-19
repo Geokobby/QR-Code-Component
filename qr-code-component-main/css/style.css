@@ -10,9 +10,13 @@ body{
     background-color: hsl(212, 45%, 89%);
     text-align: center;
     border: solid;
-    
-    
-    
+    width: 100%;
+}
+
+.body__section{
+    border: solid 1px red;
+    width: 50%;
+    margin-inline: auto;
 }
 
 
@@ -23,8 +27,10 @@ img{
 .qrDiv{
     border-radius: 1em ;
     width: 21em;
-    text-align: center;
-    margin:5em 32.5em 0em  32.5em;
+    margin-inline: auto;
+    margin-top: 5em;
+    /* text-align: center; */
+    /* margin:5em 32.5em 0em  32.5em; */
     background-color:hsl(0, 0%, 100%) ;
     
     
@@ -55,10 +61,13 @@ img{
 }
 
 @media screen and (max-width:1000px) {
+    .body__section{
+        width: 100%;
+    }
     .qrDiv{
         margin-top: 5em;
-        margin-inline: 5em;
-        text-align: center;
+        margin-inline: auto;
+        /* text-align: center; */
     }
 
 }
