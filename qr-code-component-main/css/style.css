@@ -11,14 +11,13 @@ body{
     text-align: center;
     
     width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
 }
 
-.body__section{
-    /* border: solid 1px red; */
-    width: 50%;
-    margin-inline: auto;
-}
 
 
 img{
